@@ -1,0 +1,516 @@
+:root{
+  background-color: black;
+}
+body{
+  overflow-x:hidden;
+}
+.logo{
+ position: absolute;
+ height: 60px;
+ width:150px;
+ top: 30px;
+ left: 150px;
+}
+.main-img{
+  width: 100%;
+  height:100%;
+  
+}
+.grad{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 99vw;
+  height: 118vh;
+  background: linear-gradient(to top,rgba(0,0,0,0.8)0%,rgba(0,0,0,0.8)100%);
+}
+.grad1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 99vw;
+  height: 118vh;
+  background: linear-gradient(to bottom,rgba(0,0,0,0.4)0%,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.6)100%);
+}
+.grad2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 99vw;
+  height: 118vh;
+  background: linear-gradient(to top,rgba(0,0,0,0.2)0%,rgba(0,0,0,0.8)100%);
+}
+.sign-in {
+  position: absolute;
+  top:30px; 
+  background-color: red;
+  color: white;
+  right: 120px; 
+  z-index: 999; 
+  width: 100px;
+  height: 30px;
+}
+.a1{
+  text-decoration: none;
+  
+}
+.Lng-button{
+  width: 120px;
+  height: 30px;
+  padding-left: 35px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 30px;
+  right: 230px;
+}
+.Lng-logo{
+  position: relative;
+  top: 30px;
+  right: 318px;
+  z-index: -1;
+}
+.Lng-button1{
+  width: 120px;
+  height: 30px;
+  padding-left: 35px;
+  background-color: black;
+  color: white;
+  position: relative;
+  top:180px;
+  left:120px;
+}
+.Lng-logo1{
+  position: relative;
+  top: 180px;
+  left:155px ;
+  z-index: 1;
+}
+
+h1{
+  position: absolute;
+  bottom: 350px; 
+  left: 120px;
+  transform: translateX(-50%);
+  color: white;
+ font-size: 35px;
+}
+h2{
+  position: absolute;
+  bottom: 300px; 
+  left: 170px;
+  transform: translateX(-50%);
+  color: white;
+ font-size: 18px;
+  
+}
+#c1{
+  position: absolute;
+  bottom: 110px;
+  left: 470px;
+  transform: translateX(-50%);
+  color: white;
+ font-size: 18px;
+}
+#c2{
+  width: 400px;
+  height: 50px;
+  position: absolute;
+  top: 730px;
+  left: 160px;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+  
+}
+#c3{
+  width:250px ;
+  height:50px;
+  background-color: red;
+  position: absolute;
+  bottom: 28px;
+  left: 580px;
+
+}
+#tre2{
+  position: absolute;
+  bottom: 600px; 
+  left: -70px;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: #131313;
+}
+#tre3{
+  position: absolute;
+  bottom: 470px; 
+  left: -70px;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: #131313;
+}
+
+#anilog{
+  position: absolute;
+  bottom: 420px; 
+  left: 170px;
+  transform: translateX(-50%);
+ 
+}
+#anilog1{
+  position: absolute;
+  bottom: 400px; 
+  left: 100px;
+  transform: translateX(-50%);
+ 
+}
+#i2t0{
+  position: absolute;
+  bottom: 380px; 
+  left: 40px;
+  word-spacing: 5px;
+  transform: translateX(-50%);
+  color: white;
+ font-size: 15px;
+}
+#i2t2{
+  position: absolute;
+  bottom: 350px; 
+  left: 100px;
+  word-spacing: 10px;
+  transform: translateX(-50%);
+  color: white;
+ font-size: 15px;
+}
+#i2t3{
+  padding: 5px;
+  background-color: #131313;
+}
+
+#i2t1{
+     padding: 5px;
+     background-color: #131313;
+}
+#i2t5{
+  position: absolute;
+  bottom: 320px; 
+  left: 220px;
+  transform: translateX(-50%);
+  color: white;
+ font-size: 15px;
+}
+#i2t6{
+  position: absolute;
+  bottom: 300px; 
+  left: 230px;
+  transform: translateX(-50%);
+  color: white;
+ font-size: 15px;
+}
+#t6{
+  position: absolute;
+  left:-1px;
+}
+#a2{
+  color: white;
+  text-decoration: none;
+}
+#c4{
+  font-size: 30px;
+  color: white;
+  position: relative;
+  top: 20px;
+  left: 150px;
+}
+.box{
+  background-color: black;
+  margin-top: -25px;
+  
+  
+ 
+}
+#b1{
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(to top,rgb(109, 3, 81) 0%,rgb(3, 3, 114) 100%);
+  position: relative;
+  top: 50px;
+  left: 150px;
+  display: inline-block;
+  
+}
+#b2{
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(to top,rgb(102, 2, 75) 0%,rgb(3, 3, 114) 100%);
+  position: relative;
+  top: 50px;
+  left: 150px;
+  display: inline-block;
+  
+}
+#b3{
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(to top,rgb(99, 2, 73) 0%,rgb(3, 3, 114) 100%);
+  position: relative;
+  top: 50px;
+  left: 150px;
+  display: inline-block;
+  
+}
+#b4{
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(to top,rgb(101, 2, 74) 0%,rgb(3, 3, 114) 100%);
+  position:absolute;
+  bottom: -546px;
+  right: 325px;
+  display: inline-block;
+  
+}
+
+#i1{
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  color: white;
+  font-size: 20px;
+}
+#i2{
+  position: absolute;
+  top: 70px;
+  left: 50px;
+  color: white;
+  font-size: 15px;
+
+}
+#tel{
+  position: absolute;
+  top: 200px;
+  left: 160px;
+  color: white;
+}
+#h1{
+  font-size: 30px;
+  margin-top: 100px;
+  margin-left: 150px;
+  color: white;
+}
+.card {
+  margin-bottom: 20px;
+  margin-left: -60px;
+  border: 1px solid #151515;
+  border-radius: 5px;
+}
+
+
+#headingOne{
+  background-color: rgb(47, 41, 41);
+  padding: 25px;
+}
+#headingTwo{
+  background-color: rgb(47, 41, 41);
+  padding: 25px;
+}
+#headingThree{
+  background-color:rgb(47, 41, 41);
+  padding: 25px;   
+}
+#headingFour{
+  background-color: rgb(47, 41, 41);
+  padding: 25px;
+   
+}#headingFive{
+  background-color: rgb(47, 41, 41);
+  padding: 25px;
+   
+}
+#headingSix{
+  background-color: rgb(47, 41, 41);
+  padding: 25px;
+   
+}
+
+.card-header h5 {
+  margin-bottom: 0; 
+  background-color: rgb(47, 41, 41);
+  color: white;
+}
+
+.card-body {
+  border: 2px solid; 
+  background-color: rgb(56, 53, 53);
+  color: white;
+  padding: 35px; 
+}
+.card-header.active {
+  background-color: #131313;
+  color: white; 
+}
+#accordion .card {
+  width: 980px; 
+  background-color: rgb(81, 73, 73);
+  color: white;
+}
+#accordion .card:hover{
+  background-color: white;
+  cursor: pointer;
+}
+#accordion .card-header {
+  cursor: pointer;
+  color: #333; 
+}
+#p1{
+  color: white;
+  position: relative;
+  left: 150px;
+  top: 50px;
+  font-size: 18px;
+  
+}
+#p2{
+ position: relative;
+ top: 80px;
+ left:150px ;
+ width: 700px;
+ height: 58px;
+ background-color: black;
+ border: 2px solid rgb(72, 71, 71);
+ text-justify: 20px;
+  color: white;
+}
+#p3{
+  position: relative;
+ top: 80px;
+ left: 170px;
+ width:250px ;
+  height:58px;
+  background-color: red;
+
+}
+#f1{
+  color: white;
+  position: relative;
+  top: 110px;
+  left: 150px;
+}
+#a4{
+  text-decoration: underline;
+  color: white;
+}
+#f2{
+  color: white;
+  text-decoration: underline;
+  position: relative;
+  top: 150px;
+  left: 150px;
+}
+#f3{
+  color: white;
+  text-decoration: underline;
+  position: relative;
+  top: 150px;
+  left: 400px;
+  
+}
+#f4{
+  color: white;
+  text-decoration: underline;
+  position: relative;
+  top: 150px;
+  left: 600px;
+  
+}
+#f5{
+  color: white;
+  text-decoration: underline;
+  position: relative;
+  top: 150px;
+  left: 800px;
+  
+}
+#f6{
+  color: white;
+  text-decoration: underline;
+  position: relative;
+  top: 150px;
+  left: 150px;
+}
+#f7{
+  color: white;
+  text-decoration: underline;
+  position: relative;
+  top: 150px;
+  left: 300px;
+  
+}
+#f8{
+  color: white;
+  text-decoration: underline;
+  position: relative;
+  top: 150px;
+  left: 550px;
+  
+}
+#f9{
+  color: white;
+  text-decoration: underline;
+  position: relative;
+  top: 150px;
+  left: 705px;
+  
+}
+#f10{
+  color: white;
+  text-decoration: underline;
+  position: relative;
+  top: 150px;
+  left: 380px;
+  
+}
+#f11{
+  color: white;
+  text-decoration: underline;
+  position: relative;
+  top: 150px;
+  left: 520px;
+  
+}
+#f12{
+  color: white;
+  text-decoration: underline;
+  position: relative;
+  top: 150px;
+  left: 620px;
+  
+}
+#f13{
+  color: white;
+  text-decoration: underline;
+  position: relative;
+  top: 150px;
+  left: 353px;
+  
+}
+#f14{
+  color: white;
+  text-decoration: underline;
+  position: relative;
+  top: 150px;
+  left: 540px;
+  
+}
+#last{
+  position: relative;
+  color: white;
+  top: 180px;
+  left: 148px;
+}
